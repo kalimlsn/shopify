@@ -21,3 +21,4 @@ from {{ ref('discount_codes_ab1') }}
 -- discount_codes
 where 1 = 1
 {{ incremental_clause('_airbyte_emitted_at', this) }}
+
