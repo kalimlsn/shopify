@@ -9,7 +9,7 @@
 select
     {{ dbt_utils.surrogate_key([
         adapter.quote('id'),
-        adapter.quote('name') as name,
+        adapter.quote('name'),
         'note',
         'tags',
         'email',
