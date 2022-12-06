@@ -9,7 +9,7 @@
 select
     _airbyte_unique_key,
     {{ adapter.quote('id') }},
-    tags,
+    tags as kalim,
     image,
     title,
     handle,
